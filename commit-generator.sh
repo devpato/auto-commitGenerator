@@ -1,7 +1,16 @@
-days=$1
+days=3
 hours=24
 minutes=60
 totalNumberOfCommits=3
+
+while [ $# -ne 0 ]; do
+  case "$1" in
+    "-d") days=$2; shift 2;;
+    "-tc") totalNumberOfCommits=$2; shift 2;;
+    *) break;;
+  esac
+done
+
 lenghtOfTime=$((days*hours*minutes))
 arrayOfCommits=$(shuf -i 1-$lenghtOfTime -n $totalNumberOfCommits | sort -r -n)
 

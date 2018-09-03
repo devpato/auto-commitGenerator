@@ -1,6 +1,6 @@
 {
   "name": "comgen",
-  "version": "1.0.5",
+  "version": "1.1.1",
   "description": "Auto generate fake commits and messages",
   "main": "index.js",
   "scripts": {
