@@ -16,7 +16,11 @@ URL: https://www.npmjs.com/package/comgen
 OR
 <br/>
 <br/>
+<<<<<<< HEAD
 1.Fork this repo https://github.com/pevargasg/auto-commitGenerator
+=======
+1.Fork this repo
+>>>>>>> 31338c8bcee791a096d5bfc0034f375709fc940e
 <br/>
 2.Clone the forked repo into your local environment
 <br/>

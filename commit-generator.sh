@@ -1,4 +1,4 @@
-days=3
+days=$1
 hours=24
 minutes=60
 totalNumberOfCommits=3
