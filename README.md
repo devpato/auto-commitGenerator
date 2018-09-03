@@ -13,10 +13,10 @@ Tried of created a lot of commits to make your github profile look cool? This sc
 4.Modify the variables
 
 ```
-days= represent the number of days, the number of commits will be assigned
-hours=represent the number of hours, the number of commits will be assigned
-minutes=represent the number of minutes, the number of commits will be assigned
-totalNumberOfCommits= number of commits
+days = represent the number of days, the number of commits will be assigned
+hours = represent the number of hours, the number of commits will be assigned
+minutes = represent the number of minutes, the number of commits will be assigned
+totalNumberOfCommits = number of commits
 ```
 ### Shell Script
 
