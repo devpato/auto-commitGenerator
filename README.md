@@ -45,7 +45,7 @@ In you package.json you can add the following line under scripts:
 
 This will run the the shell file by doing <strong>npm run comgen</strong>
 
-###Examples of Usage
+### Examples of Usage
 
 <strong>npm run comgen -d 365 -tc 300</strong>
 
