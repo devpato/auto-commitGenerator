@@ -4,7 +4,16 @@ Tired of creating a lot of commits to make your github profile look cool? This s
 
 ## Getting Started
 
-1.Fork this repo
+Run the following npm command to install
+
+```
+npm i comgen
+```
+URL: https://www.npmjs.com/package/comgen
+<br/>
+OR
+<br/>
+1.Fork this repo https://github.com/pevargasg/auto-commitGenerator
 <br/>
 2.Clone the forked repo into your local environment
 <br/>
@@ -18,6 +27,7 @@ hours = represent the number of hours, the number of commits will be assigned
 minutes = represent the number of minutes, the number of commits will be assigned
 totalNumberOfCommits = number of commits
 ```
+
 ### Shell Script
 
 ```
@@ -31,22 +41,23 @@ arrayOfCommits=$(shuf -i 1-$lenghtOfTime -n $totalNumberOfCommits | sort -r -n)
 
 for index in $arrayOfCommits
   do
-    randomMessage=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)  
+    randomMessage=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
     git commit --allow-empty --date "$(date -d "-$index minutes")" -m "$randomMessage"
-  done 
+  done
 git push origin master
 ```
 
 ### NPM Run
-In you package.json you can the following under scripts:
+
+In you package.json you can add the following line under scripts:
 
 ```
 "scripts": {
-    "comgen": "commit-generator.sh"
+    "comgen": "the-location-of-your-node_modules/comgen/commit-generator.sh"
  }
 ```
 
-This will run the the shell file by doing npm run comgen
+This will run the the shell file by doing: npm run comgen
 
 ## Contributing
 
@@ -54,11 +65,10 @@ Contact me wearetamo@gmail.com to make any contribution to this repo
 
 ## Authors
 
-* **Patricio Vargas** - *Initial work*
+- **Patricio Vargas** - _Initial work_
 
 See also the list of [contributors](https://github.com/pevargasg/auto-commitGenerator/graphs/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [https://github.com/pevargasg/auto-commitGenerator/blob/master/LICENSE](LICENSE.md) file for details
-
