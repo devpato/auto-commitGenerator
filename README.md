@@ -39,7 +39,7 @@ In you package.json you can add the following line under scripts:
 
 ```
 "scripts": {
-    "comgen": "the-location-of-your-node_modules/comgen/commit-generator.sh"
+    "comgen": "sh node_modules/comgen/commit-generator.sh"
  }
 ```
 

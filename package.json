@@ -4,7 +4,7 @@
   "description": "Auto generate fake commits and messages",
   "main": "index.js",
   "scripts": {
-    "comgen": "commit-generator.sh"
+    "comgen": "sh node_modules/comgen/commit-generator.sh"
   },
   "repository": {
     "type": "git",
