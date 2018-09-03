@@ -11,18 +11,15 @@ Tried of created a lot of commits to make your github profile look cool? This sc
 3.Open the commit-generator.sh file
 <br/>
 4.Modify the variables
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
 
 ```
-Give the example
+days=365
+hours=24
+minutes=60
+totalNumberOfCommits=300
+lenghtOfTime=$((days*hours*minutes))
 ```
 ### Shell Script
-
-Explain what these tests test and why
 
 ```
 days=365
@@ -48,7 +45,7 @@ Contact me wearetamo@gmail.com to make any contribution to this repo
 
 * **Patricio Vargas** - *Initial work*
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/pevargasg/auto-commitGenerator/graphs/contributors) who participated in this project.
 
 ## License
 
