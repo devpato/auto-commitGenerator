@@ -9,17 +9,22 @@ Run the following npm command to install
 ```
 npm i comgen
 ```
+
 URL: https://www.npmjs.com/package/comgen
+<br/>
 <br/>
 OR
 <br/>
-1.Fork this repo https://github.com/pevargasg/auto-commitGenerator
+<br/>
+1.Fork this repo
 <br/>
 2.Clone the forked repo into your local environment
 <br/>
-3.Open the commit-generator.sh file
+3.Run npm install
 <br/>
-4.Modify the variables
+4.Open the commit-generator.sh file under your node_modules/comgen
+<br/>
+5.Modify the variables
 
 ```
 days = represent the number of days, the number of commits will be assigned
@@ -27,6 +32,18 @@ hours = represent the number of hours, the number of commits will be assigned
 minutes = represent the number of minutes, the number of commits will be assigned
 totalNumberOfCommits = number of commits
 ```
+
+### NPM Run
+
+In you package.json you can add the following line under scripts:
+
+```
+"scripts": {
+    "comgen": "the-location-of-your-node_modules/comgen/commit-generator.sh"
+ }
+```
+
+This will run the the shell file by doing <strong>npm run comgen</strong>
 
 ### Shell Script
 
@@ -46,18 +63,6 @@ for index in $arrayOfCommits
   done
 git push origin master
 ```
-
-### NPM Run
-
-In you package.json you can add the following line under scripts:
-
-```
-"scripts": {
-    "comgen": "the-location-of-your-node_modules/comgen/commit-generator.sh"
- }
-```
-
-This will run the the shell file by doing: npm run comgen
 
 ## Contributing
 
