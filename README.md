@@ -47,11 +47,19 @@ This will run the the shell file by doing <strong>npm run comgen</strong>
 
 ### Examples of Usage
 
-<strong>npm run comgen -d 365 -tc 300</strong>
+<strong>npm run comgen d 365 h 24 m 60 c 100</strong>
+<br/>
+<strong>npm run comgen</strong>
+<br/>
+<strong>npm run comgen days 365 hours 24 minutes 60 commits 100</strong>
+<br/>
+Note that the deafault values are days :365, hours: 24, minutes: 60 and total commits: 300
 
 ```
--d: stand for the number of days
--tc: stands for the total number of commits
+d: days
+h: hours
+m: minutes
+c: number of commits
 ```
 
 ### Shell Script
