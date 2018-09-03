@@ -37,6 +37,17 @@ for index in $arrayOfCommits
 git push origin master
 ```
 
+### NPM RUN
+In you package.json you can the following under shte scripts:
+
+```
+"scripts": {
+    "comgen": "commit-generator.sh"
+ }
+```
+
+This will run the the shell file by doing npm run comgen
+
 ## Contributing
 
 Contact me wearetamo@gmail.com to make any contribution to this repo
