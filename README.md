@@ -37,7 +37,7 @@ for index in $arrayOfCommits
 git push origin master
 ```
 
-### NPM RUN
+### NPM Run
 In you package.json you can the following under shte scripts:
 
 ```
