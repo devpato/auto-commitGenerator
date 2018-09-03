@@ -38,7 +38,7 @@ git push origin master
 ```
 
 ### NPM Run
-In you package.json you can the following under shte scripts:
+In you package.json you can the following under scripts:
 
 ```
 "scripts": {
