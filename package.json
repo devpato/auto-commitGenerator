@@ -1,0 +1,22 @@
+{
+  "name": "comgen",
+  "version": "1.0.4",
+  "description": "Auto generate fake commits and messages",
+  "main": "index.js",
+  "scripts": {
+    "comgen": "commit-generator.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pevargasg/auto-commitGenerator.git"
+  },
+  "author": "Patricio Vargas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pevargasg/auto-commitGenerator/issues"
+  },
+  "homepage": "https://github.com/pevargasg/auto-commitGenerator#readme",
+  "dependencies": {
+    "comgen": "^1.0.0"
+  }
+}
