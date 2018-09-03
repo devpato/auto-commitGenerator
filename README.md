@@ -47,8 +47,6 @@ This will run the the shell file by doing <strong>npm run comgen</strong>
 
 ###Examples of Usage
 
-### Shell Script
-
 <strong>npm run comgen -d 365 -tc 300</strong>
 
 ```
@@ -56,8 +54,8 @@ This will run the the shell file by doing <strong>npm run comgen</strong>
 -tc: stands for the total number of commits
 ```
 
-<br/>
-<br/>
+### Shell Script
+
 ```
 days=365
 hours=24
@@ -73,8 +71,8 @@ randomMessage=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
 git commit --allow-empty --date "$(date -d "-$index minutes")" -m "$randomMessage"
 done
 git push origin master
-
 ```
+
 ## Contributing
 
 Contact me wearetamo@gmail.com to make any contribution to this repo
@@ -88,4 +86,7 @@ See also the list of [contributors](https://github.com/pevargasg/auto-commitGene
 ## License
 
 This project is licensed under the MIT License - see the [https://github.com/pevargasg/auto-commitGenerator/blob/master/LICENSE](LICENSE.md) file for details
+
+```
+
 ```
