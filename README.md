@@ -1,6 +1,8 @@
 # Commit generator
 
-Tired of creating a lot of commits to make your github profile look cool? This script will generate as many commits as you want in the number of days that you assign. This script will also create random messages for your commits.
+Did it #forTheLulz and to learn more on how Shell works.
+
+This script will generate as many commits as you want in the number of days that you assign. This script will also create random messages for your commits.
 
 ## Getting Started
 
